@@ -1,0 +1,344 @@
+/*################################################################################*/
+/*Services Page*/
+#service-section1 {
+    z-index: 1;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+    #service-section1 h2 {
+        position: absolute;
+        margin-top: 197px;
+        margin-left: 518px;
+        width: 245px;
+        height: 82px;
+        font-family: "Nunito";
+        font-size: 64px;
+        font-weight: 300;
+        text-align: center;
+        color: #ffffff;
+        opacity: 1;
+        z-index: 4;
+    }
+    #service-section1 h4 {
+        position: absolute;
+        margin-top: 368px;
+        margin-left: 290px;
+        width: 701px;
+        height: 54px;
+        font-family: "Nunito";
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+        z-index: 4;
+    }
+    #service-section1 img {
+        margin-top: 64px;
+        position: relative;
+        width: 1280px;
+        height: 656px;
+    }
+    #service-section1 .content, p{
+        position: relative;
+        color: #ffffff;
+        font-family: "Nunito";
+    }
+    #service-section1 .Learn-more-{
+        position: absolute;
+        margin-top: 596px;
+        margin-left: 571px;
+        width: 130px;
+        height: 39.6px;
+        padding-top: 10.9px;
+        padding-left: 12px;
+        border-radius: 2px;
+        font-family: "Nunito";
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        background-color: #e97500;
+        z-index: 80;
+    }
+#service-section2 {
+    border-top: 45px solid #f7f7f7; 
+    border-left: 24px solid #f7f7f7; 
+    border-right: 24px solid #f7f7f7; 
+    height: 697px;
+    font-family: 'Nunito', sans-serif;
+}
+    #service-section2 .content{
+        position: relative;
+        color: #ffffff;
+        font-family: "Nunito";
+    }
+    #service-section2 img{
+        -webkit-filter: invert()brightness(5%) contrast(15%);; 
+        filter: invert() brightness(5%) contrast(15%);
+    }
+    #service-section2 .sayEffect, .sayXL, .sayHalfFull {
+        margin-top: 27px;
+        margin-left: 30px;
+        margin-right: 26px;
+    }
+    input[type="radio"]{
+        position:absolute;
+        cursor:pointer;
+        left:-100%;
+        top:-100%;
+    }
+    .sayEffect {
+        cursor:pointer;
+        width: 108px;
+        height: 26px;
+    }
+    .sayXL {
+        cursor:pointer;
+        width: 81px;
+        height: 33.9px;
+    }
+    .sayHalfFull {
+        cursor:pointer;
+        width: 137px;
+        height: 33.5px;
+    }
+    .activeSlide {
+        position: relative;
+        width: 164px;
+        border-left: 10px;
+        border-bottom: 3px solid  #e97500 ;
+        padding-bottom: 42px;
+    }
+    .sayEffectSlide, .sayXLSlide, .sayHalfFullSlide{
+        width: 41.4%;
+    }
+    #say-effect-content, #say-XL-content, #say-HalfFull-content {  /* contentSlider div 'id' */
+        overflow:hidden;
+        max-height:0;
+        margin-left: 100%;
+        opacity:1;
+        -webkit-transition: all .15s ease;
+        -moz-transition: all .15s ease;
+        transition: all .15s ease;
+    }
+    #say-effect-content {
+        margin-left: 0px;
+    }
+    .Digital-marketing- {       /* contentSlider content 'span'*/
+        position: absolute;
+        text-align: center;
+        margin-top: 199px;
+        margin-left: 51px;
+        width: 412px;
+        height: 147px;
+        font-family: "Nunito";
+        font-size: 16px;
+        text-align: center;
+        color: #848484;
+    }
+    .contentSlider{
+        width: 1234px;
+        height: 542px;
+        background-color: #ffffff;
+        transition: left .5s ease;
+    }
+    #service-section2 ul {
+        margin: 0px;
+        margin-left: 361px;
+        border: 0px;
+        padding: 0px;
+    }
+    #service-section2 li {
+        margin-right: 18px;
+        display: inline-block;
+    }
+    #service-section2 hr {
+        margin-bottom: 0px;
+        border: 0;
+        background-color: black;
+        width: 1068px;
+        height: 1px;
+        border: solid 1px #eeeeee;
+    }
+    #service-section2 h1   {
+        position: absolute;
+        text-align: center;
+        margin-top: 68px;
+        margin-left: 17px;
+        width: 481px;
+        height: 82px;
+        font-family: "Nunito";
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        color: #676767;
+    }
+    .Contact-us-, .Learn-more- {
+        position: absolute;
+        font-family: "Nunito";
+        border-radius: 2px;
+        background-color: #e97500;
+        color: #ffffff;
+        text-align: center;
+        font-weight: 600;
+        z-index: 80;
+    }
+    .Contact-us- {
+        margin-top: 623px;
+        margin-left: 490px;
+        opacity: 1;
+        width: 160px;
+        height: 32px;
+        padding-top: 5px;
+        font-size: 16px;
+    }
+    .Learn-more-{
+        margin-top: 440px;
+        margin-left: 141px;
+        width: 130px;
+        height: 40px;
+        padding-top: 11px;
+        padding-left: 13px;
+        font-size: 14px;
+    }
+#service-section4{
+    border-left: 69px solid #f7f7f7; 
+    border-right: 69px solid #f7f7f7; 
+    height: 781px;
+    font-family: 'Nunito', sans-serif;
+}
+   #service-section4 div{
+        border-radius: 6px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+   }
+    #service-section4 ul {
+        margin: 0px;
+        margin-left: 430px;
+        border: 0px;
+        padding: 0px;
+    }
+    #service-section4 li, .All-, .Branding-, .Online-, .Videos- {
+        margin-right: 42px;
+        margin-top: 38px;
+        margin-bottom: 32px;
+        padding: 0px;
+        display: inline-block;
+    }
+    #service-section4 a{
+        color: #b3b3b3;
+        opacity: 0.57;
+        font-family: "Roboto";
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .ActiveViewer {
+        position: relative;
+        height: 2px;
+        color: #666666;
+        opacity: 1;
+        font-weight: bold;
+        border-bottom: 3px solid  #f13a30;
+        border-left: 10px;
+        padding-bottom: 31px;
+        z-index: 300;
+    }
+   #service-section4 hr{
+        width: 1141px;
+        margin: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+        background-color: #f5f5f5;
+        border: solid 0px #f5f5f5;
+        z-index: 4;
+   }
+   #service-section4 .Gallery-{
+        position: absolute;
+        height: 542px;
+   }
+   .img1 {
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 60px;
+        width: 240px;
+        height: 240px;
+        background-color: #d1d1d1;
+   }
+    .img2 {
+        position: absolute;
+        margin-left: 320px;
+        margin-top: 60px;
+        width: 240px;
+        height: 210px;
+        background-color: #b0b0b0;
+    }
+    .img3 {
+        position: absolute;
+        margin-left: 580px;
+        margin-top: 60px;
+        width: 240px;
+        height: 301px;
+        background-color: #959595;
+    }
+    .img4 {
+        position: absolute;
+        margin-left: 840px;
+        margin-top: 60px;
+        width: 240px;
+        height: 240px;
+        background-color: #818181;
+    }
+    .img5 {
+        position: absolute;
+        margin-left: 60px;
+        margin-top: 320px;
+        width: 240px;
+        height: 220px;
+        background-color: #dcdcdc;
+   }
+    .img6 {
+        position: absolute;
+        margin-left: 320px;
+        margin-top: 290px;
+        width: 240px;
+        height: 250px;
+        background-color: #696969;
+    }
+    .img7 {
+        position: absolute;
+        margin-left: 580px;
+        margin-top: 381px;
+        width: 240px;
+        height: 159px;
+        background-color: #bfbfbf;
+    }
+    .img8 {
+        position: absolute;
+        margin-left: 840px;
+        margin-top: 320px;
+        width: 240px;
+        height: 220px;
+        background-color: #9d9d9d;
+    }
+#service-section4 .SHOW-ALL- {
+    position: absolute;
+    margin-top: 583px;
+    margin-left: 520.5px;
+    width: 71px;
+    height: 14px;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #b3b3b3;
+}
+.arrow-icon {
+    position: absolute;
+    margin-top: 584px;
+    margin-left: 611px;
+    width: 12px;
+    height: 12px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    background-color: #b3b3b3;
+}

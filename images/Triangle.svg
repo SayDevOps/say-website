@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="6px" viewBox="0 0 8 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.38">
+        <g id="Home-page-Copy" transform="translate(-552.000000, -30.000000)" fill="#000000">
+            <g id="Menu-List" transform="translate(192.000000, 22.000000)">
+                <polygon id="Triangle" transform="translate(364.000000, 10.800000) scale(1, -1) translate(-364.000000, -10.800000) " points="364 8 368 13.6 360 13.6"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

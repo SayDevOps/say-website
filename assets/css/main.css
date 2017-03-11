@@ -1,0 +1,461 @@
+html{
+    font-size:100%;
+    width:100%;
+    height:100%;
+}
+.board{
+    margin-left:auto;
+    margin-right:auto;
+    width:80rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color: #f5f5f5;
+}
+body{
+    background-color:rgba(69, 73, 76, 0.28);;
+    font-family:'Nunito', sans-serif;
+    line-height:1.33;
+    font-size:0.875rem;
+    margin:0px
+}
+a{
+    color:inherit !important;
+    text-decoration:inherit !important 
+}
+.link:hover{
+    opacity:0.87
+}
+.navbar,footer,.dropdown-content{
+    width:100%;
+}
+.nav-link,.link{
+    color:#000000;
+    opacity:0.38;
+    font-size:0.875rem;
+    padding:1rem;
+    display:inline
+}
+.active{
+    opacity:0.87;
+}
+.btn {
+    background-color: #65499d;
+    opacity: 1;
+    border-radius: 0.125rem;
+    border-width: 0px;
+    color: white;
+    text-align: center;
+    padding-top: 0.438rem;
+    padding-bottom: 0.438rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size:0.875rem;
+}
+.navbar{
+    padding:0.25rem 1rem;
+    margin-bottom:0px;
+    border:none;
+    border-radius:0px;
+    box-shadow: 0.063rem 0.125rem 0.125rem #d8d8d8 ;
+    background-color:white;
+    position:fixed;
+    z-index:10;
+    vertical-align: middle;
+    display:flex;
+}
+    .navbar .say-logo{
+        padding: 0.625rem 0.25rem;
+        width:15%;
+        text-align: center;
+    }
+    .navbar ul{
+        margin-bottom:inherit !important;
+        padding:0rem;
+    }
+    .navbar .listoflinks{
+        width:70%;
+    }
+    .navbar li{
+        display:inline-block;
+    }
+    .navbar .btn-contact{
+        width:15%;
+        padding:0.625rem 0.25rem;
+        color:#ffffff;
+        text-align:center;
+    }
+    .navbar .dropbtn{
+        background:transparent;
+        border:none;
+        padding:0px;
+        cursor:pointer;
+        outline:none;
+    }
+    .dropdown-content {
+        display: none;
+        padding:1rem 1rem 1rem 15.5%;
+        height:3rem;
+        position: fixed;
+        background-color: #fafafa;
+        min-width: 10rem;
+        box-shadow: 0 0.188rem 0.188rem 0 rgba(0,0,0,0.03);
+        border:0px;
+        margin-top:3.75rem;
+        float:left;
+        z-index:9;
+    }
+    .navbar #dropdown-content-products{
+        padding-left:12rem;
+    }
+    .navbar #dropdown-content-about{
+        padding-left:22rem;
+    }
+    .navbar .menu{
+        background-color: #65499d;
+        text-align:center;
+        width:25%;
+    }
+    .navbar .menu a{
+        padding:1.75rem;
+    }
+    .navbar .glyphicon{
+        line-height:1.5;
+        margin-top:1rem;
+    }
+@media screen and (max-width: 1199px) {
+    .navbar {
+        padding:0rem;
+        cursor:pointer;
+    }
+    .navbar .say-logo{
+        width:50%;
+        background-color:white;
+        padding: 1rem 0.25rem;
+    }
+    .navbar .btn-contact{
+        background-color: #65499d;
+        padding: 0.75rem 0.25rem;
+        width:25%;
+    }
+    .navbar li{
+        display:block;
+    }
+    .board{
+        width:100%;
+    }
+    footer .footer1 .footer-social{
+        width:inherit !important;
+    } 
+    footer .footer-social li{
+        display:inline-block;
+        width:15%;
+    }
+    #sec2 img{
+        margin-right:-15%;
+    }
+}
+#sec1{
+    display:flex;
+    margin-top:3.938rem;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+    #sec1 .vector-img{
+        width:49.666%;
+        min-width:22rem;
+        margin:0.063rem;
+        padding:6.125rem 3rem 6.125rem 6.125rem;
+        text-align: center;
+    } 
+    #sec1 img{
+        max-width:20rem;
+        width:100%;
+        height:100%;
+    }
+    #sec1 .desc{
+        width:50%;
+        min-width:22rem;
+        margin:0.063rem;
+        padding:6.125rem 6.125rem 6.125rem 3rem;
+        text-align:center;
+        position:relative;
+        float:right;
+    }
+    #sec1 .heading{
+        font-size:1.75rem;
+        opacity:0.87;
+        text-align:center;
+        margin:0.063rem;
+        padding:0.5rem 1rem;
+    }
+    #sec1 .btn{
+        width:10rem;
+        background-color: #3018B2;
+        opacity: 0.61;
+        color: #ffffff;
+    }
+    #sec1 p{
+        opacity:0.38;
+        margin:1.5rem 0.063rem;
+        padding:0.5rem 1rem;
+    }
+#sec2{
+    background-color:#fafafa;
+    font-family:'Nunito' , sans-serif;
+    font-weight: 200;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;;
+}
+    #sec2 .sec2-img{
+        width:50%;
+        min-width:22rem;
+        float:right;
+    }
+    #sec2 img{
+        height:100%;
+        width:100%;
+    }
+    #sec2 p{
+        width:49.6666%;
+        min-width:22rem;
+        padding: 5rem 8.5rem;;
+        margin: 0.125rem;
+        font-size: 4rem;
+        opacity: 0.87;
+        line-height: 1.2;
+    }
+#sec3{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    padding-left:2.5%;
+    padding-right:2.5%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+    #sec3 .desc{
+        border-radius: 0.375rem;
+        background-color: #ffffff;
+        box-shadow: 0 0.125rem 0.313rem 0 rgba(0, 0, 0, 0.05); 
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: center;
+        padding:0.5rem;
+        padding-bottom:1.5rem;
+    }
+    #sec3 button{
+        background-color: #3018B2;
+        opacity: 0.61;
+        color: #ffffff;
+    }
+    #sec3 p{
+        padding:1.5rem 18.25%;
+        opacity:0.38;
+        margin:0.063rem;
+    }
+#sec4{
+    background-color:#fafafa;
+    font-family:'Nunito' , sans-serif;
+    font-weight: 200;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    #sec4 .sec4-img{
+        width:50%;
+        min-width:22rem;
+        float:left;
+    }
+    #sec4 img{
+        height:100%;
+        width:100%;
+    }
+    #sec4 p{
+        width:49%;
+        min-width:22rem;
+        padding: 5rem 8.5rem;;
+        margin: 0.125rem;
+        font-size: 4rem;
+        opacity: 0.87;
+        line-height: 1.2;
+    }
+#sec5{
+    padding-top:4.5rem;
+    padding-bottom:4.5rem;
+    padding-left:5.625%;
+    padding-right:5.625%;
+}
+    #sec5 .sec5-img{
+        width:50%;
+        min-width:22rem;
+        float:right;
+    }
+    #sec5 img{
+        height:100%;
+        width:100%;
+    }
+    #sec5 .sec5-sub{
+        border-radius: 0.375rem;
+        background-color: #ffffff;
+        font-family:'Nunito' , sans-serif;
+        font-weight: 200;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        box-shadow: 0 0.125rem 0.313rem 0 rgba(0, 0, 0, 0.05);
+    }
+    #sec5 .desc{
+        justify-content:center;
+        align-content:center;
+        text-align:left;
+        width:49%;
+        min-width:22rem;
+        margin:0.063rem;
+        padding:6.125rem 6.125rem 6.125rem 3rem;
+        text-align:left;
+        position:relative;
+        display:flex;
+        flex-direction:column;
+    }
+    #sec5 .heading{
+        font-size:1.875rem;
+        opacity:0.87;
+        text-align:left;
+        font-weight: bold;
+        padding:0.5rem;
+    }
+    #sec5 .para{
+        padding:0.5rem;
+        opacity:0.38;
+        margin-top:1.5rem;
+        margin-bottom:1.5rem;
+    }
+#sec6{
+    display:inline-flex;
+    justify-content:center;
+}
+    #sec6 img{
+        width: 100%;
+        object-fit: contain;
+        float:right;
+        justify-content:center;
+        align-items:center
+    }
+    #sec6 .desc{
+        padding-left:17.34%;
+        padding-right:17.34%;
+        padding-bottom:6rem;
+        text-align:center;
+        color: #ffffff;
+        z-index:1;
+        position:absolute;
+    }
+    #sec6 .heading{
+        font-size:2.5rem;
+        opacity:1;
+        text-align:left;
+        padding:0.5rem;
+    }
+    #sec6 .para p{
+        font-size:1.125rem;
+        margin-top:2rem;
+        margin-bottom:2rem;
+        padding:0.5rem;
+    }
+#sec7 img{
+    width:100%;
+}
+footer{
+    color:#ffffff;
+}
+    footer ul{
+        opacity: 0.6;
+        font-size: 0.75rem;
+        line-height:2.33;
+        list-style-type: none;
+        padding:0px;
+    }
+    footer .footer1{
+        background-color: #1f2532;
+        padding:5rem 0.5rem 0.5rem 0.5rem;
+    }
+        footer .footer1 .board{
+            flex-direction: row;
+            flex-wrap:wrap;
+            width:70%;
+            background-color: inherit;
+        }
+        footer .footer1 .logo{
+            min-width:15rem;
+            width:44%;
+            padding:0.25rem 1.875rem;
+            margin:0.125rem;
+        }
+            footer .footer1 .logo img {
+                float:left;
+            }
+            footer .footer1 .logo a{
+                margin-left: 0px;
+                margin-top: 0px;
+            }
+            footer .footer1 .logo p{
+                opacity: 0.6;
+                font-size: 0.875rem;
+                font-weight: 200;
+                line-height: 1.36;
+                text-align: left;
+                margin-top:2rem;  
+                margin-bottom:0px;          
+            }
+        footer .footer1 .about{
+            padding:0.25rem 1.875rem;
+            width:14%;
+            margin:0.125rem;
+            min-width:4.5rem;
+        }
+            footer .footer1 .about .about-label,.support .support-label,.contact .contact-label{
+                opacity: 0.87;
+            }
+        footer .footer1 .support{
+            margin:0.125rem;
+            padding:0.25rem 1.875rem;
+            min-width:4.5rem;
+            width:14%;
+        }
+        footer .footer1 .contact{
+            margin:0.125rem;
+            min-width:4.5rem;
+            width:14%;
+            padding:0.25rem 1.875rem;
+        }
+        footer .footer1 .footer-social{
+            margin:0.125rem;
+            min-width:0.5rem;
+            width:9%;
+            padding:0.25rem 1.875rem;
+        }
+            footer .footer1 .footer-social ul{
+                opacity:1;
+            }
+    footer .footer2{
+         background-color:#3e3e58;
+         text-align:center;
+         padding: 2rem;
+    }
+        footer .footer2 .board{
+            flex-direction: row;
+            width:60%;
+            flex-wrap:wrap;
+            background-color: inherit;
+        }
+        footer .footer2 p{
+            font-size:0.875rem;
+            font-weight:300;
+            border:none;
+            color:white;
+            font-family:"Nunito" , Arial, Helvetica, sans-serif;
+        }

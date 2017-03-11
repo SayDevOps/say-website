@@ -1,0 +1,77 @@
+#sec14{
+    margin-top:64px;
+    height:656px;
+    display:flex;
+    margin-top:3.938rem;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-image: url('../../images/contact1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+    #sec14 .desc .para{
+        z-index:2;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #ffffff;
+        margin-top:52px;
+        margin-bottom:0px;
+        font-family:'Nunito';
+        background: transparent;
+    }
+    #sec14 div{
+        height:504px;
+        width:408px;
+        text-align:center;
+        color:#ffffff;
+    }
+    #sec14 .form{
+        display:none;
+    }
+    #sec14 input[type="text"],
+	#sec14 input[type="email"],
+	#sec14 textarea{
+            width: 407px;
+            height: 40px;
+            border-radius: 51px;
+            background-color: rgba(175, 175, 175, 0.25);
+            font-size:20px;
+            color:white;
+            outline:none;
+            padding-left:18px;
+            padding-right:18px;
+            border-style:none;
+            transition:all .3s ease;
+    }
+    #sec14 input[type="email"],
+	#sec14 textarea{
+        margin-top:32px;
+    }
+	#sec14 textarea{
+        resize:none;
+        height:224px;
+        padding-top:20px;
+    }
+    #sec14 .desc .heading{
+        font-size:64px;
+        opacity:0.87;
+        font-weight: bold;
+        line-height:normal;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-top:32px;
+    }
+    #sec14 .btn{
+        background-color: #e97500;
+        transition:all .1s ease;
+    }
+@media screen and (max-width: 698px){
+    #sec14 input[type="text"],
+	#sec14 input[type="email"],
+	#sec14 textarea{
+        width: 328px;
+    }        
+}
